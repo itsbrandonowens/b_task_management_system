@@ -1,0 +1,222 @@
+ /* ################# TaskList + Nav ################# */
+ .main_title {
+     text-align: center;
+     font-size: 2.5vw;
+     font-weight: 800;
+     font-family: "Open Sans", sans-serif;
+ }
+
+ .navbar {
+     text-align: center;
+     margin-top: -1%;
+ }
+
+ .navbar_text {
+     font-size: 1vw;
+     font-weight: 500;
+     text-decoration: none;
+     list-style: none;
+     color: rgb(115, 8, 96);
+     margin-left: 2%;
+     margin-right: 2%;
+     font-family: "Open Sans", sans-serif;
+ }
+
+ .navbar_text:hover {
+     font-weight: 500;
+     text-decoration: none;
+     list-style: none;
+     color: rgb(187, 18, 156);
+     margin-left: 2%;
+     margin-right: 2%;
+
+ }
+
+ .tasklist_title {
+     margin-left: 3%;
+     font-size: 2vw;
+     font-weight: 800;
+     font-family: "Open Sans", sans-serif;
+ }
+
+ ul {
+     display: flex;
+ }
+
+ li {
+     list-style: none;
+
+ }
+
+ .task_box {
+     background-color: rgb(149, 149, 149, 0.2);
+     border-radius: 10px;
+     width: 20vw;
+     height: 12vw;
+     padding: 1%;
+     margin: 1%;
+     font-family: "Open Sans", sans-serif;
+
+ }
+
+ .task_title {
+     margin-top: 0%;
+     font-size: 1.5vw;
+     font-weight: 500;
+ }
+
+ .delete_button {
+     padding: 2%;
+     float: right;
+
+     font-size: 1vw;
+     cursor: pointer;
+     background: red;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+     background: #e62222;
+     color: white;
+     text-align: center;
+
+ }
+
+ .delete_button:hover {
+     background: #a41616;
+ }
+
+ .task_description {
+     font-size: 0.8vw;
+     font-weight: 400;
+ }
+
+ .task_status {
+     font-size: 0.8vw;
+     font-weight: 600;
+     color: green;
+ }
+
+ .task_priority {
+     font-size: 0.8vw;
+     font-weight: 600;
+     float: right;
+     color: rgb(187, 78, 5);
+ }
+ .task_due_date{
+    font-size: 0.8vw;
+    font-weight: 600;
+ }
+
+ /* ################# Create Task ################# */
+ .form {
+    width:80%;
+    margin-left:10%;
+
+ }
+
+ .create_task_title {
+    margin-left: 10%;
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+}
+
+ .form_title {
+    width:99%;
+    font-size: 1vw;
+    font-family: "Open Sans", sans-serif;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    padding:0.5%;
+ }
+
+ .form_desc {
+    width:100%;
+    font-size:1vw;
+    margin-top:1%;
+    height: 12vw;
+    box-sizing: border-box;
+    padding:0.5%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    overflow:hidden;
+    display:block;
+    font-family: "Open Sans", sans-serif;
+ }
+
+ .form_status {
+    width:20%;
+    font-size:1vw;
+    margin-right:1%;
+    margin-top:1%;
+    padding:0.5%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+ }
+
+ .form_priority {
+    width:20%;
+    font-size:1vw;
+    margin-right:1%;
+    margin-top:1%;
+    padding:0.5%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+ }
+
+ .form_submit {
+    width:20%;
+    margin-top:1%;
+    font-size:1vw;
+    float:right;
+    padding:0.5%;
+    border: 2px solid #444444;
+    border-radius: 4px;
+    background-color: #111111;
+    color:white;
+    cursor:pointer;
+ }
+
+  /* ################# Search By Id ################# */
+.search_main_title{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+}
+
+.search_form{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.search_form_input{
+    width:10%;
+    font-size:1vw;
+    margin-right:1%;
+    padding:0.5%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin-bottom:3%;
+}
+.search_submit{
+    width:5%;
+    font-size:1vw;
+    padding:0.5%;
+    border: 2px solid #444444;
+    border-radius: 4px;
+    background-color: #111111;
+    color:white;
+    cursor:pointer;
+
+}
+  .search_title{
+    font-size:0.8vw;
+    margin-left:2%;
+  }
+
